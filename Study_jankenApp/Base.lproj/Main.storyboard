@@ -86,6 +86,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="YaI-8P-7le" secondAttribute="trailing" constant="20" id="unZ-Pe-agb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="computerImageView" destination="Vfd-vp-BUq" id="720-4Y-nab"/>
+                        <outlet property="playerImageView" destination="zN4-et-6os" id="VIL-0S-NQZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
