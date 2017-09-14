@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var computerImageView: UIImageView!
     @IBOutlet weak var playerImageView: UIImageView!
+    @IBOutlet weak var messageLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +21,14 @@ class ViewController: UIViewController {
         //イメージビューの回転
         computerImageView.transform = CGAffineTransform(rotationAngle: angle)
     }
-
+    
+    @IBAction func tapStart() {
+        // イメージビューにグーを表示する
+        computerImageView.image = UIImage(nemed: "gu.jpg")
+        playerImageView.image = UIImage(nemed: "gu.jpg")
+        // ラベルに「じゃんけん！」と表示する
+        messageLabel.text = "じゃんけん！"
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
