@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     
     @IBAction func tapStart() {
         // イメージビューにグーを表示する
-        computerImageView.image = UIImage(nemed: "gu.jpg")
-        playerImageView.image = UIImage(nemed: "gu.jpg")
+        computerImageView.image = UIImage(named: "gu.jpg")
+        playerImageView.image = UIImage(named: "gu.jpg")
         // ラベルに「じゃんけん！」と表示する
         messageLabel.text = "じゃんけん！"
     }
