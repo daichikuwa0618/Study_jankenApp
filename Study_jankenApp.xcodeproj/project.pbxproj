@@ -12,6 +12,9 @@
 		42A90A191F6A8B90001577D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A90A171F6A8B90001577D0 /* Main.storyboard */; };
 		42A90A1B1F6A8B90001577D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A90A1A1F6A8B90001577D0 /* Assets.xcassets */; };
 		42A90A1E1F6A8B90001577D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A90A1C1F6A8B90001577D0 /* LaunchScreen.storyboard */; };
+		42A90A261F6A8EC8001577D0 /* gu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42A90A251F6A8EC8001577D0 /* gu.jpg */; };
+		42A90A281F6A8ECF001577D0 /* pa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42A90A271F6A8ECF001577D0 /* pa.jpg */; };
+		42A90A2A1F6A8ED4001577D0 /* choki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42A90A291F6A8ED4001577D0 /* choki.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		42A90A1A1F6A8B90001577D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42A90A1D1F6A8B90001577D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42A90A1F1F6A8B90001577D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A90A251F6A8EC8001577D0 /* gu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gu.jpg; path = ../../../../Downloads/gu.jpg; sourceTree = "<group>"; };
+		42A90A271F6A8ECF001577D0 /* pa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pa.jpg; path = ../../../../Downloads/pa.jpg; sourceTree = "<group>"; };
+		42A90A291F6A8ED4001577D0 /* choki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = choki.jpg; path = ../../../../Downloads/choki.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		42A90A121F6A8B90001577D0 /* Study_jankenApp */ = {
 			isa = PBXGroup;
 			children = (
+				42A90A251F6A8EC8001577D0 /* gu.jpg */,
+				42A90A271F6A8ECF001577D0 /* pa.jpg */,
+				42A90A291F6A8ED4001577D0 /* choki.jpg */,
 				42A90A131F6A8B90001577D0 /* AppDelegate.swift */,
 				42A90A151F6A8B90001577D0 /* ViewController.swift */,
 				42A90A171F6A8B90001577D0 /* Main.storyboard */,
@@ -123,8 +132,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A90A281F6A8ECF001577D0 /* pa.jpg in Resources */,
+				42A90A261F6A8EC8001577D0 /* gu.jpg in Resources */,
 				42A90A1E1F6A8B90001577D0 /* LaunchScreen.storyboard in Resources */,
 				42A90A1B1F6A8B90001577D0 /* Assets.xcassets in Resources */,
+				42A90A2A1F6A8ED4001577D0 /* choki.jpg in Resources */,
 				42A90A191F6A8B90001577D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
