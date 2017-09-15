@@ -56,16 +56,25 @@
                                         <rect key="frame" x="0.0" y="0.0" width="87.5" height="30"/>
                                         <color key="backgroundColor" red="0.69881598037612558" green="1" blue="0.62869691116612525" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="グー"/>
+                                        <connections>
+                                            <action selector="tapGu" destination="BYZ-38-t0r" eventType="touchUpInside" id="lgb-Pz-Mll"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AF-Fc-yfc">
                                         <rect key="frame" x="107.5" y="0.0" width="88" height="30"/>
                                         <color key="backgroundColor" red="1" green="0.80303692477714894" blue="0.77498082122007717" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="チョキ"/>
+                                        <connections>
+                                            <action selector="tapChoki" destination="BYZ-38-t0r" eventType="touchUpInside" id="d73-nR-xI8"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7D7-cn-ACg">
                                         <rect key="frame" x="215.5" y="0.0" width="87.5" height="30"/>
                                         <color key="backgroundColor" red="0.82568807218850782" green="0.86374247030848617" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="パー"/>
+                                        <connections>
+                                            <action selector="tapPa" destination="BYZ-38-t0r" eventType="touchUpInside" id="r1T-9o-0Nd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -90,7 +99,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="computerImageView" destination="Vfd-vp-BUq" id="720-4Y-nab"/>
+                        <outlet property="computerImageView" destination="Vfd-vp-BUq" id="hXi-oz-nnq"/>
                         <outlet property="messageLabel" destination="YaI-8P-7le" id="hdm-mA-3dE"/>
                         <outlet property="playerImageView" destination="zN4-et-6os" id="VIL-0S-NQZ"/>
                     </connections>
